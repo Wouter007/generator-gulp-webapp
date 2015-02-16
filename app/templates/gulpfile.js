@@ -86,6 +86,9 @@ gulp.task('serve', ['styles', 'fonts'], function () {
       routes: {
         '/bower_components': 'bower_components'
       }
+    },
+    ui: {
+      port: 9001
     }
   });
 
